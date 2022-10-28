@@ -1,0 +1,37 @@
+
+.navigation{
+    display: flex;
+    height: 80px;
+    border: solid 1px black;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 40px;
+}
+.navigation ul, li, a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 12px;
+    transition: ease-in-out .4s;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+.navigation ul, li, a:hover{
+    color: rgb(141, 20, 26)
+}
